@@ -33,13 +33,13 @@ _Make a list of examples of what the method will take and return._
 ```ruby
 # EXAMPLE
 
-extract_uppercase("hello WORLD") => ["WORLD"]
-extract_uppercase("HELLO WORLD") => ["HELLO", "WORLD"]
-extract_uppercase("hello world") => []
-extract_uppercase("hello WoRLD") => []
-extract_uppercase("hello WORLD!") => ["WORLD"]
-extract_uppercase("") => []
-extract_uppercase(nil) throws an error
+read_time_estimate(400) => 2
+read_time_estimate(800) => 4
+read_time_estimate(1600) => 8
+read_time_estimate(450) => 2.25
+read_time_estimate(0) => 0
+read_time_estimate(nil) throws an error
+
 ```
 
 _Encode each example as a test. You can add to the above list as you go._
