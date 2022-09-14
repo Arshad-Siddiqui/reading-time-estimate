@@ -22,4 +22,10 @@ RSpec.describe '#read_time_estimate' do
       expect(result).to eq 2.25
     end
   end
+  
+  context '0 words are given' do
+    it 'returns 0' do
+      expect(read_time_estimate(0)).to eq 0
+    end
+  end
 end
