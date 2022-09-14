@@ -31,7 +31,7 @@ RSpec.describe '#read_time_estimate' do
 
   context 'nil is given as argument' do
     it 'throws an error' do
-      expect { read_time_estimate(null) }.to raise_error
+      expect { read_time_estimate(nil) }.to raise_error
     end
   end
 end
