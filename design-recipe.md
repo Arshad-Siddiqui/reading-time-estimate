@@ -2,7 +2,11 @@
 
 ## 1. Describe the Problem
 
-_Put or write the user story here. Add any clarifying notes you might have._
+> As a user  
+> So that I can manage my time  
+> I want to see an estimate of reading time for a text, assuming that I can read
+> 200 words a minute.
+
 
 ## 2. Design the Method Signature
 
