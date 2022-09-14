@@ -12,6 +12,8 @@
 
 _Include the name of the method, its parameters, return value, and side effects._
 
+def read_time_estimate(text) -> number (minutes)
+
 ```ruby
 # EXAMPLE
 
