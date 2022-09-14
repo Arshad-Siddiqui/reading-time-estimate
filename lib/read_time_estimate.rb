@@ -1,3 +1,3 @@
 def read_time_estimate(word_count)
-  word_count / 200
+  word_count.to_f / 200
 end
