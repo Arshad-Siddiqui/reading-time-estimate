@@ -28,4 +28,10 @@ RSpec.describe '#read_time_estimate' do
       expect(read_time_estimate(0)).to eq 0
     end
   end
+
+  context 'nil is given as argument' do
+    it 'throws an error' do
+      expect { read_time_estimate(null) }.to raise_error
+    end
+  end
 end
