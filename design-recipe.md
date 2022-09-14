@@ -12,16 +12,16 @@
 
 _Include the name of the method, its parameters, return value, and side effects._
 
-def read_time_estimate(text) -> number (minutes)
+def read_time_estimate(word_count) -> number (minutes)
 
 ```ruby
 # EXAMPLE
 
-# `extract_upper` extracts uppercase words from a list of words
-uppercase_words = extract_uppercase(mixed_words)
+# `read_time_estimate` Converts words into the time it takes to read them. (Assuming you read at 200 wpm)
+time_to_read = read_time_estimate(number_of_words)
 
-mixed_words: a string (e.g. "hello WORLD")
-uppercase_words: a list of strings (e.g. ["WORLD"])
+number_of_words: a number (e.g. 400)
+time_to_read: a number (e.g. 2)
 
 # The method doesn't print anything or have any other side-effects
 ```
