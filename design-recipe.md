@@ -32,7 +32,7 @@ _Make a list of examples of what the method will take and return._
 
 ```ruby
 # EXAMPLE
-
+read_time_estimate(200) => 1
 read_time_estimate(400) => 2
 read_time_estimate(800) => 4
 read_time_estimate(1600) => 8
