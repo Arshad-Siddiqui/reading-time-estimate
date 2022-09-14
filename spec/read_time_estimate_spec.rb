@@ -6,5 +6,10 @@ RSpec.describe '#read_time_estimate' do
       result = read_time_estimate(200)
       expect(result).to eq 1
     end
+
+    it 'converts 400 to 2' do
+      result = read_time_estimate(400)
+      expect(result).to eq 2
+    end
   end
 end
